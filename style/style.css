@@ -1,0 +1,263 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ebe6df;
+}
+
+#header{
+    font-weight: 600;
+    background-color: #fff !important;
+
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+#navbar-menu li a {
+    color: #140a47 !important;
+    text-transform: uppercase;
+}
+
+.header-menu{
+    width: 90%;
+}
+
+.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    font-weight: 600;
+}
+
+.fixed-top.scrolled #navbar-menu li a{
+    color: #140a47 !important;
+}
+
+.navbar-nav li a{
+    text-align: right;
+}
+
+.carousel-inner{
+    height: 600px;
+}
+
+.carousel-item{
+    height: 600px;
+}
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1095px) {
+    .carousel-inner {
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .header-menu .navbar{
+        justify-content: flex-end;
+    }
+    .carousel-inner {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 766px){
+    .header-menu{
+        width: 87%;
+    }
+    .header-menu .navbar {
+        justify-content: flex-end;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .header-menu{
+        width: 80%;
+    }
+    .header-menu .navbar {
+        justify-content: flex-end;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .header-menu{
+        width: 80%;
+    }
+    .header-menu .navbar {
+        justify-content: flex-end;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+#schedule .content .row .col{
+    color: #001489;
+    text-transform: uppercase;
+}
+
+.league{
+    color: #151211;
+    font-size: .6875rem;
+}
+
+#schedule .content .row .col:nth-child(2){
+    border: 3px solid rgb(224 219 213);
+    border-top: none;
+    border-bottom: none;
+}
+
+.match-tag span{
+    background-color: #03f;
+    color: #fff;
+    display: inline-block;
+    padding: 0 1em;
+    line-height: 2;
+    font-size: .625rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    outline: 0;
+    z-index: 1;
+    font-size: .875rem;
+    color: #03f;
+    padding: .5rem 2em;
+    border: 1px solid #001489;
+    margin: 0 auto;
+}
+
+.match-date p{
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .3px;
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0;
+}
+#carouselExampleIndicators{
+    margin-top: 60px;
+}
+
+#contact .info i {
+    font-size: 32px;
+    color: #001489;
+    float: left;
+    line-height: 1;
+}
+
+#contact .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+/* hover zoom image */
+.img-hover-zoom {
+    background: #222f3e;
+    height: 300px;
+    overflow: hidden;
+    border-radius: .5em;
+    border: 5px solid rgba(255, 255, 255, .05);
+}
+.img-hover-zoom--basic:hover img {
+    transform: scale(1.5);
+}
+.img-hover-zoom--basic img {
+    transition: transform .5s ease;
+    max-width: 480px;
+    min-height: 300px;
+}
+/* end hover zoom image */
+
+/* hover button */
+.hover-up:hover, .hover-up:focus {
+    box-shadow: inset 0 -3.25em 0 0 #001489 ;
+}
+button:hover, button:focus {
+    border-color: #001489; 
+    color: #fff;
+}
+
+button{
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+/* end hover button */
+
+.footer-logo img{
+    width: 100px;
+}
+
+#contact ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    display: flex;
+}
+
+#contact .content .social-media li a{
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: #03f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 4rem;
+    border: 1px solid #001489;
+    height: 2.5rem;
+    width: 2.5rem;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/* #contact .content .row .col-4:nth-child(2) {
+    border: 3px solid rgb(224 219 213);
+    border-top: none;
+    border-bottom: none;
+} */
